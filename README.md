@@ -1,4 +1,4 @@
-### Developer Guide README for the Server
+### Developer Guide
 
 ---
 
