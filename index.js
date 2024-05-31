@@ -6,13 +6,36 @@ const app = express();
 require('dotenv').config({ path: './.env' });
 
 const PORT = process.env.APPLICATION_PORT;
-
 app.use(express.json());
 
-const replacePlaceholders = (template, params) => {
+const extractPlaceholders = (obj, prefix = '') => {
+	const placeholders = {};
+	for (const key in obj) {
+		const value = obj[key];
+		if (typeof value === 'object' && value !== null) {
+			Object.assign(placeholders, extractPlaceholders(value, `${prefix}${key}.`));
+		} else if (typeof value === 'string' && value.startsWith('<:') && value.endsWith('>')) {
+			placeholders[value.slice(2, -1)] = `${prefix}${key}`;
+		}
+	}
+	return placeholders;
+};
+
+const getValueByPath = (obj, path) => {
+	const keys = path.split('.');
+	let result = obj;
+	for (const key of keys) {
+		result = result ? result[key] : undefined;
+	}
+	return result;
+};
+
+const replacePlaceholders = (template, placeholders, params) => {
 	let result = template;
-	for (const [key, value] of Object.entries(params)) {
-		result = result.replace(new RegExp(`<:${key}>`, 'g'), value);
+	for (const [placeholder, path] of Object.entries(placeholders)) {
+		const value = getValueByPath(params, path);
+		const regex = new RegExp(`<:${placeholder}>`, 'g');
+		result = result.replace(regex, value);
 	}
 	return result;
 };
@@ -36,10 +59,18 @@ const configs = loadConfigs();
 configs.forEach((routeConfig) => {
 	const { method, route, requestData, returnData } = routeConfig;
 	const httpMethod = method.toLowerCase();
-
 	app[httpMethod](route, (req, res) => {
 		const params = { ...req.params, ...req.query, ...req.body };
-		const response = JSON.parse(replacePlaceholders(JSON.stringify(returnData), params));
+		const placeholders = {
+			...extractPlaceholders(requestData),
+			...Object.fromEntries(Object.keys(req.params).map((key) => [key, key])),
+			...Object.fromEntries(Object.keys(req.query).map((key) => [key, key])),
+		};
+		console.log('Extracted Placeholders:', placeholders);
+		const responseTemplate = JSON.stringify(returnData);
+		const responseWithPlaceholdersReplaced = replacePlaceholders(responseTemplate, placeholders, params);
+		const response = JSON.parse(responseWithPlaceholdersReplaced);
+		console.log('Response:', response);
 		res.json(response);
 	});
 });

@@ -1,2 +1,2 @@
 # Command 1
-curl -X POST "http://localhost:5012/auth/user/4273/details/1037" -H "Content-Type: application/json" -d '{"greeting_message":"hello","user_age":"4527","transaction_id":"1002","session_token":"573"}'
+curl -X POST "http://localhost:5012/auth/user/389/details/2645" -H "Content-Type: application/json" -d '{"greeting_message":"538","user_age":"466","transaction_id":"3200","session_token":"1344","session_details":{"data":{"time":"4907"}}}'
