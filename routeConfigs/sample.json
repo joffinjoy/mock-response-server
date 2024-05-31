@@ -1,0 +1,34 @@
+{
+	"routes": [
+		{
+			"route": "/auth/user/:userId/details/:detailId",
+			"method": "POST",
+			"requestData": {
+				"greeting_message": "hello",
+				"user_age": "<:userAge>",
+				"transaction_id": "<:transactionId>",
+				"session_token": "<:sessionToken>"
+			},
+			"returnData": {
+				"user_id": "<:userId>",
+				"detail_id": "<:detailId>",
+				"user_age": "<:user_age>",
+				"greeting_message": "<:greeting_message>",
+				"session_token": "<:session_token>",
+				"query_param1": "<:queryParam1>",
+				"query_param2": "<:queryParam2>",
+				"user_profile": {
+					"profile_id": "<:transaction_id>",
+					"profile_details": {
+						"contact_info": "<:session_token>",
+						"preferences": [
+							{ "<:userId>": "<:userId>" },
+							{ "<:transaction_id>": "<:transaction_id>", "history": ["<:detailId>", "<:userId>"] },
+							"<:session_token>"
+						]
+					}
+				}
+			}
+		}
+	]
+}
