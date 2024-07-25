@@ -1,0 +1,2 @@
+# Command 1
+curl -X POST "http://localhost:5012/v1/org/read" -H "Content-Type: application/json" -d '{"request":{"organisationId":"23"}}'

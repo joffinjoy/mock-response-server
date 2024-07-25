@@ -1,0 +1,980 @@
+{
+	"routes": [
+		{
+			"route": "/private/user/v1/read/:user_id",
+			"method": "GET",
+			"requestData": {},
+			"responseData": {
+				"id": ".private.user.v1.read.<:user_id>",
+				"ver": "private",
+				"ts": "2024-06-23 17:10:22:793+3330",
+				"params": {
+					"resmsgid": "656d544ba32244e7824d27c91a755603",
+					"msgid": "656d544ba32244e7824d27c91a755603",
+					"err": null,
+					"status": "SUCCESS",
+					"errmsg": null
+				},
+				"responseCode": "OK",
+				"result": {
+					"response": {
+						"webPages": null,
+						"maskedPhone": "******6769",
+						"tcStatus": null,
+						"loginId": null,
+						"subject": null,
+						"channel": "Minister for New Delhi",
+						"profileUserTypes": [],
+						"language": null,
+						"updatedDate": "2024-06-06 09:50:19:696+3330",
+						"password": null,
+						"managedBy": null,
+						"flagsValue": 4,
+						"report_access_expiry": null,
+						"id": "<:user_id>",
+						"recoveryEmail": "",
+						"identifier": "<:user_id>",
+						"thumbnail": null,
+						"profileVisibility": null,
+						"updatedBy": "<:user_id>",
+						"accesscode": null,
+						"last_login": 1718176965195,
+						"locationIds": [],
+						"registryId": null,
+						"nodebbid": null,
+						"rootOrgId": "333",
+						"prevUsedEmail": "",
+						"profileUpdateCompletion": 86,
+						"firstName": "Joffin",
+						"profileLocation": [],
+						"tncAcceptedOn": null,
+						"allTncAccepted": {},
+						"profileDetails": {
+							"mentoring": {
+								"roles": ["mentee"]
+							},
+							"get_started_tour": {
+								"visited": true,
+								"skipped": true
+							},
+							"userRoles": [
+								{
+									"name": "Minister for New Delhi",
+									"activities": [
+										{
+											"name": "QA"
+										},
+										{
+											"name": "TCD"
+										},
+										{
+											"name": "TCE"
+										},
+										{
+											"name": "Review"
+										},
+										{
+											"name": "Survey"
+										}
+									],
+									"osid": "f861a05f-1c42-4aee-94eb-2ecb0b01b475",
+									"doj": "13-07-2023",
+									"location": "Algeria",
+									"industry": "Banking",
+									"designation": "test",
+									"group": "Group B",
+									"verifiedKarmayogi": true
+								},
+								{
+									"name": "Manages grievance redressal mechanisms",
+									"activities": [
+										{
+											"name": "grievance redressal "
+										},
+										{
+											"name": "management"
+										},
+										{
+											"name": "human resource"
+										}
+									],
+									"osid": "a28208e2-c8cc-4d6b-ae7b-4a6fc856d106"
+								}
+							],
+							"professionalDetails": [
+								{
+									"designation": "test",
+									"osid": "f861a05f-1c42-4aee-94eb-2ecb0b01b475",
+									"doj": "13-07-2023",
+									"group": "Group B",
+									"verifiedKarmayogi": true,
+									"location": "Algeria",
+									"industry": "Banking",
+									"name": "Minister for New Delhi"
+								}
+							],
+							"getStarted": true,
+							"verifiedKarmayogi": true,
+							"employmentDetails": {
+								"departmentName": "Minister for New Delhi",
+								"pinCode": "876546",
+								"service": "Central Architect Service.",
+								"employeeCode": "",
+								"pincode": "",
+								"mobile": 7672036769
+							},
+							"systemTopics": [
+								{
+									"children": null,
+									"identifier": "igot_testcategory2_4888bb94-728a-4fbc-9608-3bd7027b73a0",
+									"name": "Minister for New Delhi",
+									"osid": "f861a05f-1c42-4aee-94eb-2ecb0b01b475",
+									"doj": "13-07-2023",
+									"location": "Algeria",
+									"industry": "Banking",
+									"designation": "test",
+									"group": "Group B",
+									"verifiedKarmayogi": true
+								},
+								{
+									"children": null,
+									"identifier": "igot_testcategory2_e9df711e-6897-4ac8-98b0-05361f809f7d",
+									"name": "Data Systems",
+									"osid": "a0bb8290-5725-4cfc-9f81-ee8ad5c8bf1d"
+								},
+								{
+									"children": null,
+									"identifier": "igot_testcategory2_d14d80ef-c8bf-40d8-8f27-3288f3ce7e5b",
+									"name": "Social Marketing",
+									"osid": "9ebbefd2-cc64-4040-a49a-f01199848f18"
+								},
+								{
+									"children": [
+										{
+											"identifier": "igot_testcategory2_6a1cfea6-c18a-4b12-81ca-c97702e18818",
+											"code": "6a1cfea6-c18a-4b12-81ca-c97702e18818",
+											"name": "Nature & Purpose of Organisation",
+											"description": "Nature & Purpose of Organisation",
+											"index": 1,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_fca57f33-432c-4a4f-826e-e4bb55436220",
+											"code": "fca57f33-432c-4a4f-826e-e4bb55436220",
+											"name": "Evolution of Management thought",
+											"description": "Evolution of Management thought",
+											"index": 2,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_fb7517f5-54e7-4559-b7da-3631279bed48",
+											"code": "fb7517f5-54e7-4559-b7da-3631279bed48",
+											"name": "The Management Model",
+											"description": "The Management Model",
+											"index": 3,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_624af436-4477-4918-be88-e47ae8570b43",
+											"code": "624af436-4477-4918-be88-e47ae8570b43",
+											"name": "Managing Public Organisations",
+											"description": "Managing Public Organisations",
+											"index": 4,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										}
+									],
+									"identifier": "igot_testcategory2_e463395d-7a6f-496d-a48e-a418d57d528c",
+									"name": "Principles of Management",
+									"osid": "becde466-d7df-4b59-bc87-bacc857c47c4"
+								},
+								{
+									"children": [
+										{
+											"identifier": "igot_testcategory2_a3bb1af5-2836-406f-b4d7-a6c9ae943bd3",
+											"code": "a3bb1af5-2836-406f-b4d7-a6c9ae943bd3",
+											"name": "Individuals- Understandign Self",
+											"description": "Individuals- Understandign Self",
+											"index": 1,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_77c9ab68-1ade-407a-955d-72c9045ad19e",
+											"code": "77c9ab68-1ade-407a-955d-72c9045ad19e",
+											"name": "Interpersonal Relations",
+											"description": "Interpersonal Relations",
+											"index": 2,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_cf8637b8-29b3-413f-a25f-08a137941e08",
+											"code": "cf8637b8-29b3-413f-a25f-08a137941e08",
+											"name": "Working in Large Organisations",
+											"description": "Working in Large Organisations",
+											"index": 3,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										}
+									],
+									"identifier": "igot_testcategory2_69fd9729-99f9-4d93-b9ff-24a51cb8d769",
+									"name": "Organisational Behavior",
+									"osid": "4e1e43a3-b0db-4037-98f7-7c7818c7bfa1"
+								},
+								{
+									"children": [
+										{
+											"identifier": "igot_testcategory2_0bc43384-b803-4b05-8f09-e8b732c3d3c6",
+											"code": "0bc43384-b803-4b05-8f09-e8b732c3d3c6",
+											"name": "Principle and Perspectives of HRM in Government",
+											"description": "Principle and Perspectives of HRM in Government",
+											"index": 1,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_c5612a51-46e3-47ff-8639-e365a3d17d00",
+											"code": "c5612a51-46e3-47ff-8639-e365a3d17d00",
+											"name": "HRM functions in Government",
+											"description": "HRM functions in Government",
+											"index": 2,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_a225415d-c2f3-4cd2-b907-ddaa36643103",
+											"code": "a225415d-c2f3-4cd2-b907-ddaa36643103",
+											"name": "Performance Management in Public Sector",
+											"description": "Performance Management in Public Sector",
+											"index": 3,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_5b6853a8-547d-4e98-831c-b369b3fe83f9",
+											"code": "5b6853a8-547d-4e98-831c-b369b3fe83f9",
+											"name": "Industrial Relations",
+											"description": "Industrial Relations",
+											"index": 4,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_075a173b-d60d-4ccb-8bac-5cc7ffda81aa",
+											"code": "075a173b-d60d-4ccb-8bac-5cc7ffda81aa",
+											"name": "Competency Based HRM – Applications in Government ",
+											"description": "Competency Based HRM – Applications in Government ",
+											"index": 5,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										}
+									],
+									"identifier": "igot_testcategory2_8c2bf175-bc83-47fa-90fc-0ef10f3885a7",
+									"name": "Human Resource Management in Government",
+									"osid": "0a6eb33d-ebd6-4d8b-99fb-ee1d63bf1ee7"
+								},
+								{
+									"children": [
+										{
+											"identifier": "igot_testcategory2_24f7d67c-5791-484b-bd0a-28065c15e485",
+											"code": "24f7d67c-5791-484b-bd0a-28065c15e485",
+											"name": "Social Networking",
+											"description": "Social Networking",
+											"index": 1,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_880f772b-bb25-478c-8315-61363c71bb8e",
+											"code": "880f772b-bb25-478c-8315-61363c71bb8e",
+											"name": "Cyber Security",
+											"description": "Cyber Security",
+											"index": 2,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_07c29dac-2c44-46de-8b10-94bf70fbb604",
+											"code": "07c29dac-2c44-46de-8b10-94bf70fbb604",
+											"name": "WANS",
+											"description": "WANS",
+											"index": 3,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_ddb8fab2-188b-4166-ba5e-7595e846c942",
+											"code": "ddb8fab2-188b-4166-ba5e-7595e846c942",
+											"name": "Unified Communication",
+											"description": "Unified Communication",
+											"index": 4,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_210556e9-b14c-4a9a-9a52-7309b989f3dd",
+											"code": "210556e9-b14c-4a9a-9a52-7309b989f3dd",
+											"name": "Content Services",
+											"description": "Content Services",
+											"index": 5,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_4a4e3d93-a3bb-46f9-9414-f2250b93d4c8",
+											"code": "4a4e3d93-a3bb-46f9-9414-f2250b93d4c8",
+											"name": "Email",
+											"description": "Email",
+											"index": 6,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										}
+									],
+									"identifier": "igot_testcategory2_23e18fbb-d2c3-4f77-8459-23632b124663",
+									"name": "Networking & Communication",
+									"osid": "5d204014-956f-4a61-b91a-a2d9b4091a34"
+								},
+								{
+									"children": [
+										{
+											"identifier": "igot_testcategory2_423f7a51-e8f6-4b0e-8cb1-618f638496fa",
+											"code": "423f7a51-e8f6-4b0e-8cb1-618f638496fa",
+											"name": "Concept of Database Management",
+											"description": "Concept of Database Management",
+											"index": 1,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_66022759-2aa9-4071-908b-8fb5d67d5081",
+											"code": "66022759-2aa9-4071-908b-8fb5d67d5081",
+											"name": "Data Normalization",
+											"description": "Data Normalization",
+											"index": 2,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_b9919d0c-b4f9-4351-b025-118083dcaaaa",
+											"code": "b9919d0c-b4f9-4351-b025-118083dcaaaa",
+											"name": "Database Design",
+											"description": "Database Design",
+											"index": 3,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_5c3b18ee-32e6-49cc-8a24-3e06d20e1058",
+											"code": "5c3b18ee-32e6-49cc-8a24-3e06d20e1058",
+											"name": "Data Inputs",
+											"description": "Data Inputs",
+											"index": 4,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_8dc31350-aeb7-49fb-96a0-37dc1f27a8e6",
+											"code": "8dc31350-aeb7-49fb-96a0-37dc1f27a8e6",
+											"name": "Retrieval & Reporting",
+											"description": "Retrieval & Reporting",
+											"index": 5,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_7c690ba9-6333-4155-ad9e-3e14638f8a87",
+											"code": "7c690ba9-6333-4155-ad9e-3e14638f8a87",
+											"name": "Data Types",
+											"description": "Data Types",
+											"index": 6,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										}
+									],
+									"identifier": "igot_testcategory2_4d78ad86-acb0-418b-8d15-5df3cafe16f8",
+									"name": "Database Management System - MS Acess",
+									"osid": "e01b067a-568a-4227-9745-eee6227f1fe3"
+								},
+								{
+									"children": [
+										{
+											"identifier": "igot_testcategory2_6a278b57-b436-486b-82fb-f676c5ca6174",
+											"code": "6a278b57-b436-486b-82fb-f676c5ca6174",
+											"name": "Document Navigation",
+											"description": "Document Navigation",
+											"index": 1,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_61559de2-5bdb-4baa-bf2d-f40acc16a429",
+											"code": "61559de2-5bdb-4baa-bf2d-f40acc16a429",
+											"name": "Manipulating Text",
+											"description": "Manipulating Text",
+											"index": 2,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_629b29dc-89ad-4d7c-ba92-edc9dcb14aaf",
+											"code": "629b29dc-89ad-4d7c-ba92-edc9dcb14aaf",
+											"name": "Formatting ",
+											"description": "Formatting ",
+											"index": 3,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_64185f04-6c21-42c6-b0bd-32a3be2ecdd5",
+											"code": "64185f04-6c21-42c6-b0bd-32a3be2ecdd5",
+											"name": "Themes and Templates",
+											"description": "Themes and Templates",
+											"index": 4,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_80fb65c8-5be1-4825-bb66-79de33e732ed",
+											"code": "80fb65c8-5be1-4825-bb66-79de33e732ed",
+											"name": "Organising Content",
+											"description": "Organising Content",
+											"index": 5,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_e8d86c16-cff9-412b-b436-0ae79d4b4035",
+											"code": "e8d86c16-cff9-412b-b436-0ae79d4b4035",
+											"name": "Tabs, Coloumns and Charts",
+											"description": "Tabs, Coloumns and Charts",
+											"index": 6,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_546c9679-1ddb-4957-8227-d416370a7ede",
+											"code": "546c9679-1ddb-4957-8227-d416370a7ede",
+											"name": "Links, Header & Footer",
+											"description": "Links, Header & Footer",
+											"index": 7,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_6c0db7bd-93e0-47f4-aeca-5794d74c0457",
+											"code": "6c0db7bd-93e0-47f4-aeca-5794d74c0457",
+											"name": "References",
+											"description": "References",
+											"index": 8,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_55821281-9aaa-4eb4-bd08-b92e6b689f6e",
+											"code": "55821281-9aaa-4eb4-bd08-b92e6b689f6e",
+											"name": "Mail Merge",
+											"description": "Mail Merge",
+											"index": 9,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_b865f8e2-936d-4f46-b485-627ac627072c",
+											"code": "b865f8e2-936d-4f46-b485-627ac627072c",
+											"name": "Visual Content",
+											"description": "Visual Content",
+											"index": 10,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_2a358696-ee32-4978-b960-243f3560e262",
+											"code": "2a358696-ee32-4978-b960-243f3560e262",
+											"name": "Reviewing Documents",
+											"description": "Reviewing Documents",
+											"index": 11,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_46f6e8ea-1647-4700-afaf-67cf7c52267b",
+											"code": "46f6e8ea-1647-4700-afaf-67cf7c52267b",
+											"name": "SHaring and Protectign Documents",
+											"description": "SHaring and Protectign Documents",
+											"index": 12,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										}
+									],
+									"identifier": "igot_testcategory2_c203e18e-91df-4920-bf53-b495a6b02448",
+									"name": "Word Processing (MS-Word)",
+									"osid": "4ada430c-f860-4506-8333-18ed2175eb97"
+								},
+								{
+									"children": [
+										{
+											"identifier": "igot_testcategory2_90d01acf-ef92-4026-a4e1-c03d8210957d",
+											"code": "90d01acf-ef92-4026-a4e1-c03d8210957d",
+											"name": "email Apps (NICemail, gmail, etc.) ",
+											"description": "email Apps (NICemail, gmail, etc.) ",
+											"index": 1,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_93aa6825-3442-4300-b24d-c4f63c1e1cbe",
+											"code": "93aa6825-3442-4300-b24d-c4f63c1e1cbe",
+											"name": "Calendar (Google Calendar, etc.)",
+											"description": "Calendar (Google Calendar, etc.)",
+											"index": 2,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_5a8667c2-6a04-4ceb-97ba-324aeb69c929",
+											"code": "5a8667c2-6a04-4ceb-97ba-324aeb69c929",
+											"name": "Microsoft Kaizala App",
+											"description": "Microsoft Kaizala App",
+											"index": 3,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_27404e6e-7313-453e-adae-b109958f2502",
+											"code": "27404e6e-7313-453e-adae-b109958f2502",
+											"name": "WhatsApp",
+											"description": "WhatsApp",
+											"index": 4,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_b0c1456d-71c5-44b9-ae87-cd6797ca8196",
+											"code": "b0c1456d-71c5-44b9-ae87-cd6797ca8196",
+											"name": "GIMS ",
+											"description": "GIMS ",
+											"index": 5,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_51f6e224-40a8-4970-b37e-8d970f75552f",
+											"code": "51f6e224-40a8-4970-b37e-8d970f75552f",
+											"name": "ShareX",
+											"description": "ShareX",
+											"index": 6,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_294f6ea1-e983-43a0-bb4c-b2b970ded899",
+											"code": "294f6ea1-e983-43a0-bb4c-b2b970ded899",
+											"name": "TechSmith",
+											"description": "TechSmith",
+											"index": 7,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_13001083-a107-4e1a-b568-0d64f32a20e4",
+											"code": "13001083-a107-4e1a-b568-0d64f32a20e4",
+											"name": "Capture",
+											"description": "Capture",
+											"index": 8,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_d5cd6309-bd38-4372-b899-0a759629fcc0",
+											"code": "d5cd6309-bd38-4372-b899-0a759629fcc0",
+											"name": "Asana ",
+											"description": "Asana ",
+											"index": 9,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_0b8eff8c-00fe-443a-9cfe-e83cf46adb66",
+											"code": "0b8eff8c-00fe-443a-9cfe-e83cf46adb66",
+											"name": "Google Notes",
+											"description": "Google Notes",
+											"index": 10,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_a4a3d1bd-cec3-4c1f-b54d-9b73ad5cef04",
+											"code": "a4a3d1bd-cec3-4c1f-b54d-9b73ad5cef04",
+											"name": "Google Keep",
+											"description": "Google Keep",
+											"index": 11,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										},
+										{
+											"identifier": "igot_testcategory2_f4677375-2a4e-4c10-addc-4b836002d292",
+											"code": "f4677375-2a4e-4c10-addc-4b836002d292",
+											"name": "Meeting Solutions",
+											"description": "Meeting Solutions",
+											"index": 12,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										}
+									],
+									"identifier": "igot_testcategory2_52d39ec5-419d-47aa-bc76-8d4dccebefb0",
+									"name": "Applications",
+									"osid": "a96dae48-82e4-4a9a-96c5-520fd44da627"
+								},
+								{
+									"children": [
+										{
+											"identifier": "igot_testcategory2_de047798-b7b3-4076-9834-976564bc5ae2",
+											"code": "de047798-b7b3-4076-9834-976564bc5ae2",
+											"name": "Current State of Indian Economy",
+											"description": "Current State of Indian Economy",
+											"index": 1,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										}
+									],
+									"identifier": "igot_testcategory2_5157b8ff-3d0b-4007-b04b-ab29fa7d700f",
+									"name": "Indian Economy",
+									"osid": "375f4402-3ab2-449c-b959-029778966deb"
+								},
+								{
+									"children": null,
+									"identifier": "igot_testcategory2_4f119aaa-a3f0-4478-9e9d-26ecab84defc",
+									"name": "Modern History",
+									"osid": "4d05d47e-45a1-4d0c-9eb8-e17ac525a063"
+								},
+								{
+									"children": [
+										{
+											"identifier": "igot_testcategory2_b66eb48e-4427-4f90-a4bd-b37ccb341158",
+											"code": "b66eb48e-4427-4f90-a4bd-b37ccb341158",
+											"name": "Basics of Emerging Technologies",
+											"description": "Basics of Emerging Technologies",
+											"index": 1,
+											"status": "Live",
+											"children": null,
+											"noOfHoursConsumed": 0
+										}
+									],
+									"identifier": "igot_testcategory2_54f24b5c-9271-4de7-9d53-9bb07d791013",
+									"name": "Emerging Technologies",
+									"osid": "5f9bd593-8332-4258-af2d-46cb898efc37"
+								}
+							],
+							"personalDetails": {
+								"firstname": "Joffin",
+								"primaryEmail": "mot.user2@yopmail.com",
+								"officialEmail": "mot.user2@yopmail.com",
+								"mobile": 40000000000000,
+								"phoneVerified": true,
+								"nationality": "Indian",
+								"dob": "7-7-2023",
+								"gender": "MALE",
+								"maritalStatus": "Married",
+								"domicileMedium": "",
+								"knownLanguages": ["Algerian Arabic"],
+								"postalAddress": "#1234",
+								"category": "GENERAL",
+								"pincode": "",
+								"personalEmail": "",
+								"countryCode": "",
+								"telephone": "",
+								"secondaryEmail": ""
+							},
+							"academics": [
+								{
+									"nameOfQualification": "",
+									"type": "X_STANDARD",
+									"nameOfInstitute": "",
+									"yearOfPassing": "",
+									"osid": "f861a05f-1c42-4aee-94eb-2ecb0b01b475",
+									"designation": "test",
+									"doj": "13-07-2023",
+									"group": "Group B",
+									"verifiedKarmayogi": true,
+									"location": "Algeria",
+									"industry": "Banking",
+									"name": "Minister for New Delhi"
+								},
+								{
+									"nameOfQualification": "",
+									"type": "XII_STANDARD",
+									"nameOfInstitute": "",
+									"yearOfPassing": "",
+									"osid": "af52d92f-341c-4280-8bee-aa13eb6978ef"
+								}
+							],
+							"competencies": [
+								{
+									"type": "COMPETENCY",
+									"id": "CID0340",
+									"name": "Minister for New Delhi",
+									"description": " Understand the concept of Trainset and Distributed power rolling stock",
+									"status": "VERIFIED",
+									"source": "FRAC",
+									"competencyType": "Domain",
+									"competencySelfAttestedLevel": "CIL0579",
+									"competencySelfAttestedLevelValue": "Level 1",
+									"competencySelfAttestedLevelName": "Basic",
+									"osid": "f861a05f-1c42-4aee-94eb-2ecb0b01b475",
+									"doj": "13-07-2023",
+									"location": "Algeria",
+									"industry": "Banking",
+									"designation": "test",
+									"competencyCBPCompletionLevel": "1",
+									"competencyCBPCompletionLevelValue": "Level 1",
+									"competencyCBPCompletionLevelName": "Basic",
+									"group": "Group B",
+									"verifiedKarmayogi": true
+								},
+								{
+									"type": "COMPETENCY",
+									"id": "CID0329",
+									"name": "Testing_ravi",
+									"description": "Testing",
+									"status": "VERIFIED",
+									"source": "CBP",
+									"competencyType": "Behavioural",
+									"competencySelfAttestedLevel": "1",
+									"competencySelfAttestedLevelValue": "Level 1",
+									"competencySelfAttestedLevelName": "Basic",
+									"osid": "",
+									"competencyCBPCompletionLevel": "1",
+									"competencyCBPCompletionLevelValue": "Level 1",
+									"competencyCBPCompletionLevelName": "Basic"
+								},
+								{
+									"competencyCBPCompletionLevelName": "asdfghj",
+									"name": "test",
+									"description": "asdfghjkl;llhg",
+									"competencyCBPCompletionLevelValue": "Level 1",
+									"id": "CID0327",
+									"source": "FRAC",
+									"osid": "ef04912c-6387-4a3f-b9f6-7c44d2793bb1",
+									"type": "COMPETENCY",
+									"competencyCBPCompletionLevel": "1"
+								},
+								{
+									"competencyCBPCompletionLevelName": "Basic",
+									"name": "fractesttttttttttt",
+									"description": "wertyuio",
+									"competencyCBPCompletionLevelValue": "Level 1",
+									"id": "CID0335",
+									"source": "FRAC",
+									"osid": "aaeb4d62-1a07-470d-8f0f-8fad05754b2e",
+									"type": "COMPETENCY",
+									"competencyCBPCompletionLevel": "1"
+								},
+								{
+									"competencyCBPCompletionLevelName": "Basic",
+									"name": "fractesttttttttttt",
+									"description": "Local Port Forwarding \nNow the original command will look like this : \n # ssh -L 7777:00.00.00.00:5601 kunal@55.55.55.55 \nAfter running above command you will be able to access application hosted in target server on port number  5601 through your local machine port number 7777. \nThis the one way we can use local port forwarding. But it should not solve our other requirement which is if we  want to access application running on port number 3306 on jump server. As we don’t have other ports access  on Jump server. \n # ssh -L workstation_port:localhost:jump_port kunal@jumpserver \nAbove command will do the same. Don’t get confused by the localhost part. This localhost means jump server  itself because ssh will connect to the Jump Sever first and then will execute the remaining command. And what  we are doing here is forwading the jump server port into our workstation. \n  \n  \n  \n  \n # ssh -L 8888:localhost:3306 kunal@jumpserver \n Remote Port Forwarding \nRemote port forwarding is the opposite of local forwarding, and isn’t used as frequently(If you are not working  in Keen & Able). It allows you to make a resource on workstation available on the Jump server. And this time  jump server can be outside your local network. \nLet me take a real life example and I am sure most of us has already faced it during over time in this family. You  are working on mail server from client location and you need support from you team in home office. But client  network policies are little bit tricky. They don’t allow any inbound traffic, means no request can come from  outside (there goes your local port forwarding plan in the water). \nNow what you can do is (what I did as well). You can forward your mail server sshd 22 port to a cloud server  which can be accessed by your team from home office. In this case mail server is your workstation because you  want to forward its port and cloud server is your jump server. \n # ssh -R jump_port:localhost:workstation_port kunal@jumpserver \n\n\n\n# ssh -R 2022:localhost:22 kunal@55.55.55.55\nDynamic Port Forwarding \nDynamic port forwarding turns your SSH client into a SOCKS proxy server. SOCKS is a little-known but  widely-implemented protocol for programs to request any Internet connection through a proxy server. \nEach program that uses the proxy server needs to be configured specifically, and reconfigured when you stop  using the proxy server. For demo purpose I am using curl command. \n # ssh -v -D 1080 kunal@mylaptop -N \nThis command will start a SOCKS proxy listener on port 1080 of your workstation. Through next command  check if its working of not: \n # curl -I -x socks5h://127.0.0.1:1080 https://www.google.com \n HTTP/2 200  \n content-type: text/html; charset=ISO-8859-1 \n p3p: CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+									"competencyCBPCompletionLevelValue": "Level 1",
+									"id": "CID0334",
+									"source": "FRAC",
+									"osid": "69938ad2-ad6e-4990-b483-b8694a7fdc54",
+									"type": "COMPETENCY",
+									"competencyCBPCompletionLevel": "1"
+								},
+								{
+									"competencyCBPCompletionLevelName": "Basic",
+									"name": "Process_Administration_two",
+									"description": "Process_Administration_two des",
+									"competencyCBPCompletionLevelValue": "Level 1",
+									"id": "CID0358",
+									"source": "FRAC",
+									"osid": "08d8e536-d032-4f28-a0a4-42a615378a19",
+									"type": "COMPETENCY",
+									"competencyCBPCompletionLevel": "1"
+								},
+								{
+									"competencyCBPCompletionLevelName": "Basic",
+									"name": "pdf generation",
+									"description": "how to generate pdf",
+									"competencyCBPCompletionLevelValue": "Level 1",
+									"id": "CID0443",
+									"source": "FRAC",
+									"osid": "da72bafa-510e-4c0c-990b-6b68c0d00b7b",
+									"type": "COMPETENCY",
+									"competencyCBPCompletionLevel": "1"
+								}
+							],
+							"mandatoryFieldsExists": false,
+							"additionalProperties": {
+								"tag": ["learn", "knowledge"],
+								"webPortalLang": "en",
+								"externalSystemId": "16081986SHUB",
+								"externalSystem": "eHRMS"
+							}
+						},
+						"phone": "******6769",
+						"dob": null,
+						"grade": null,
+						"currentLoginTime": null,
+						"userType": null,
+						"status": 1,
+						"lastName": null,
+						"tncLatestVersion": "v1",
+						"gender": null,
+						"roles": ["PUBLIC"],
+						"prevUsedPhone": "",
+						"stateValidated": true,
+						"encEmail": "a+TRV+YBkENYQXaXqukjiuo0ivOYnI0/fyGrO6o1mRMq0Z/LLwdfUGiUe6YanjNVcGE6ChiEc2R2\nTNFpUjr2E6Q26naVnGsoniywyjf6sqFQVCo5GXFMSOllS8jBFXgITQtMGOn7lhkDdxs1iV8l8A==",
+						"isDeleted": false,
+						"organisations": [
+							{
+								"organisationId": "333",
+								"updatedBy": null,
+								"addedByName": null,
+								"addedBy": null,
+								"associationType": null,
+								"roles": ["PUBLIC"],
+								"approvedBy": null,
+								"updatedDate": null,
+								"userId": "<:user_id>",
+								"approvaldate": null,
+								"isDeleted": false,
+								"hashTagId": "333",
+								"isRejected": null,
+								"id": "0140271322669957121133",
+								"position": null,
+								"isApproved": null,
+								"orgjoindate": "2024-04-05 05:49:34:356+3330",
+								"orgLeftDate": null
+							}
+						],
+						"provider": null,
+						"countryCode": null,
+						"tncLatestVersionUrl": "{https://portal.karmayogi.nic.in/app/tnc}",
+						"maskedEmail": "mo*******@yopmail.com",
+						"tempPassword": null,
+						"email": "mo*******@yopmail.com",
+						"rootOrg": {
+							"frameworkid": null,
+							"dateTime": null,
+							"preferredLanguage": null,
+							"keys": {},
+							"organisationSubType": 128,
+							"channel": "Minister for New Delhi",
+							"approvedBy": null,
+							"description": null,
+							"updatedDate": null,
+							"organisationType": 16,
+							"addressId": null,
+							"orgType": null,
+							"isMdo": true,
+							"isTenant": true,
+							"provider": null,
+							"locationId": null,
+							"orgCode": null,
+							"theme": null,
+							"id": "333",
+							"isCbp": true,
+							"communityId": null,
+							"isApproved": null,
+							"email": null,
+							"slug": "minister-for-new-delhi",
+							"isSSOEnabled": false,
+							"thumbnail": null,
+							"orgName": "Minister for New Delhi",
+							"updatedBy": null,
+							"locationIds": [],
+							"externalId": null,
+							"orgLocation": [],
+							"isRootOrg": null,
+							"rootOrgId": "333",
+							"imgUrl": null,
+							"approvedDate": null,
+							"homeUrl": null,
+							"orgTypeId": null,
+							"isMinistry": true,
+							"isDefault": null,
+							"createdDate": "2023-08-22 09:24:34:344+3330",
+							"createdBy": "12580399-2409-49c3-9dfc-8554711caebf",
+							"parentOrgId": null,
+							"hashTagId": "333",
+							"noOfMembers": null,
+							"status": 1
+						},
+						"phoneVerified": true,
+						"profileSummary": null,
+						"tcUpdatedDate": null,
+						"recoveryPhone": "",
+						"avatar": null,
+						"userName": "motusertwo_jv5t",
+						"userId": "<:user_id>",
+						"userSubType": null,
+						"first_login": 1690199277333,
+						"promptTnC": true,
+						"emailVerified": true,
+						"lastLoginTime": null,
+						"createdDate": "2023-06-26 04:26:36:335+3330",
+						"framework": {},
+						"createdBy": "12580399-2409-49c3-9dfc-8554711caebf",
+						"profileUserType": {},
+						"encPhone": "8iaz1NUM9l8BSvJF4z7E5sHycyI344xH8ZsvH7OEoHIPBEs5n07DESH2NV5DMwwE+ZeUx6kFTkNj\nv83qFjyg9q28NK8gP+1JrvxwJb6vF+cmNb3D46GLEpUm0tlFtUgWTQtMGOn7lhkDdxs1iV8l8A==",
+						"location": null,
+						"tncAcceptedVersion": null
+					}
+				}
+			}
+		}
+	]
+}

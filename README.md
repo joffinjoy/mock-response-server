@@ -26,7 +26,7 @@ Below is an example of a configuration file (`sampleConfig.json`) that can be pl
 				"transaction_id": "<:transactionId>",
 				"session_token": "<:sessionToken>"
 			},
-			"returnData": {
+			"responseData": {
 				"user_id": "<:userId>",
 				"detail_id": "<:detailId>",
 				"user_age": "<:userAge>",

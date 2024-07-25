@@ -1,0 +1,262 @@
+{
+	"routes": [
+		{
+			"route": "/userorg/private/user/v1/read/:userId",
+			"method": "GET",
+			"requestData": {},
+			"responseData": {
+				"id": ".private.user.v1.read.54dc2814-e815-4ed9-8a58-6464785a1f2c",
+				"ver": "private",
+				"ts": "2024-05-24 10:04:35:943+0000",
+				"params": {
+					"resmsgid": "17dead1e-90cc-477a-a092-1effd52cb2e9",
+					"msgid": "17dead1e-90cc-477a-a092-1effd52cb2e9",
+					"err": null,
+					"status": "SUCCESS",
+					"errmsg": null
+				},
+				"responseCode": "OK",
+				"result": {
+					"response": {
+						"webPages": null,
+						"maskedPhone": "******1004",
+						"tcStatus": null,
+						"loginId": null,
+						"channel": "dikshapreprodcustodian",
+						"profileUserTypes": [
+							{
+								"type": "administrator",
+								"subType": "crp"
+							},
+							{
+								"type": "administrator",
+								"subType": "hm"
+							},
+							{
+								"type": "administrator",
+								"subType": "gcdo_pmrc"
+							},
+							{
+								"type": "administrator",
+								"subType": "chm"
+							},
+							{
+								"type": "administrator",
+								"subType": "dtwo"
+							},
+							{
+								"type": "administrator",
+								"subType": "cmo_pmrc"
+							},
+							{
+								"type": "administrator",
+								"subType": "deo"
+							},
+							{
+								"type": "administrator",
+								"subType": "meo"
+							},
+							{
+								"type": "administrator",
+								"subType": "dyeo"
+							}
+						],
+						"language": null,
+						"updatedDate": "2024-04-24 09:51:36:703+0000",
+						"password": null,
+						"managedBy": null,
+						"flagsValue": 0,
+						"id": "<:userId>",
+						"recoveryEmail": "",
+						"identifier": "<:userId>",
+						"thumbnail": null,
+						"profileVisibility": null,
+						"updatedBy": "<:userId>",
+						"accesscode": null,
+						"locationIds": [
+							"1f339dfa-1c65-487d-9e15-27fbdbd337f5",
+							"24c36610-0640-45a3-b88e-fa92c9ebbec2",
+							"e5be5e9c-3eea-4822-8754-9009c47c6782",
+							"bc75cc99-9205-463e-a722-5326857838f8"
+						],
+						"registryId": null,
+						"rootOrgId": "0126796199493140480",
+						"prevUsedEmail": "",
+						"firstName": "Vishwanath Sbadiger",
+						"isMinor": false,
+						"profileLocation": [
+							{
+								"id": "1f339dfa-1c65-487d-9e15-27fbdbd337f5",
+								"type": "cluster"
+							},
+							{
+								"id": "24c36610-0640-45a3-b88e-fa92c9ebbec2",
+								"type": "district"
+							},
+							{
+								"id": "e5be5e9c-3eea-4822-8754-9009c47c6782",
+								"type": "block"
+							},
+							{
+								"id": "bc75cc99-9205-463e-a722-5326857838f8",
+								"type": "state"
+							}
+						],
+						"tncAcceptedOn": 1681805051208,
+						"allTncAccepted": {
+							"groupsTnc": {
+								"tncAcceptedOn": "2021-12-14 11:14:10:430+0000",
+								"version": "3.5.0"
+							}
+						},
+						"profileDetails": null,
+						"phone": "******1004",
+						"dob": "1991-12-31",
+						"currentLoginTime": null,
+						"userType": "administrator",
+						"status": 1,
+						"lastName": "",
+						"tncLatestVersion": "v13",
+						"gender": null,
+						"prevUsedPhone": "",
+						"stateValidated": false,
+						"encEmail": null,
+						"isDeleted": false,
+						"organisations": [
+							{
+								"isSelfDeclaration": true,
+								"organisationId": "0126796199493140480",
+								"updatedBy": null,
+								"addedByName": null,
+								"addedBy": null,
+								"associationType": 2,
+								"approvedBy": null,
+								"updatedDate": null,
+								"userId": "<:userId>",
+								"approvaldate": null,
+								"isSystemUpload": false,
+								"isDeleted": false,
+								"hashTagId": "0126796199493140480",
+								"isSSO": false,
+								"isRejected": null,
+								"id": "01317872462080409614",
+								"position": null,
+								"isApproved": null,
+								"orgjoindate": "2020-12-23 13:31:54:759+0000",
+								"orgLeftDate": null
+							},
+							{
+								"isSelfDeclaration": true,
+								"organisationId": "01274200593719296013305",
+								"updatedBy": "<:userId>",
+								"addedByName": null,
+								"addedBy": "<:userId>",
+								"associationType": 2,
+								"approvedBy": null,
+								"updatedDate": "2024-04-24 09:51:36:712+0000",
+								"userId": "<:userId>",
+								"approvaldate": null,
+								"isSystemUpload": false,
+								"isDeleted": false,
+								"hashTagId": "01274200593719296013305",
+								"isSSO": false,
+								"isRejected": false,
+								"id": "01274200593719296013305",
+								"position": null,
+								"isApproved": false,
+								"orgjoindate": "2024-01-01 06:35:22:074+0000",
+								"orgLeftDate": "2024-01-01 06:20:12:497+0000"
+							}
+						],
+						"provider": null,
+						"countryCode": "+91",
+						"tncLatestVersionUrl": "https://obj.stage.sunbirded.org/privacy-policy/terms-of-use.html",
+						"maskedEmail": null,
+						"tempPassword": null,
+						"email": "",
+						"rootOrg": {
+							"dateTime": null,
+							"preferredLanguage": null,
+							"keys": {},
+							"organisationSubType": null,
+							"channel": "dikshapreprodcustodian",
+							"approvedBy": null,
+							"description": "Pre-prod Custodian Organization",
+							"updatedDate": "2022-02-18 09:50:42:752+0000",
+							"organisationType": 5,
+							"addressId": null,
+							"orgType": null,
+							"isTenant": true,
+							"provider": null,
+							"locationId": null,
+							"orgCode": null,
+							"theme": null,
+							"id": "0126796199493140480",
+							"communityId": null,
+							"isApproved": null,
+							"isBoard": true,
+							"email": null,
+							"slug": "dikshapreprodcustodian",
+							"isSSOEnabled": null,
+							"thumbnail": null,
+							"orgName": "Staging Custodian Organization",
+							"updatedBy": null,
+							"locationIds": [
+								"027f81d8-0a2c-4fc6-96ac-59fe4cea3abf",
+								"8250d58d-f1a2-4397-bfd3-b2e688ba7141"
+							],
+							"externalId": "101010",
+							"orgLocation": [
+								{
+									"type": "state",
+									"id": "027f81d8-0a2c-4fc6-96ac-59fe4cea3abf"
+								},
+								{
+									"type": "district",
+									"id": "8250d58d-f1a2-4397-bfd3-b2e688ba7141"
+								}
+							],
+							"isRootOrg": true,
+							"rootOrgId": "0126796199493140480",
+							"imgUrl": null,
+							"approvedDate": null,
+							"homeUrl": null,
+							"orgTypeId": null,
+							"isDefault": null,
+							"createdDate": "2019-01-18 09:48:13:428+0000",
+							"createdBy": "system",
+							"parentOrgId": null,
+							"hashTagId": "0126796199493140480",
+							"noOfMembers": null,
+							"status": 1
+						},
+						"phoneVerified": true,
+						"profileSummary": null,
+						"tcUpdatedDate": null,
+						"recoveryPhone": "",
+						"avatar": null,
+						"userName": "vishwanath_h66g",
+						"userId": "<:userId>",
+						"userSubType": "crp",
+						"promptTnC": false,
+						"emailVerified": true,
+						"lastLoginTime": null,
+						"createdDate": "2020-12-23 13:31:54:705+0000",
+						"framework": {
+							"board": ["CBSE"],
+							"id": ["ekstep_ncert_k-12"]
+						},
+						"createdBy": null,
+						"profileUserType": {
+							"subType": "crp",
+							"type": "administrator"
+						},
+						"encPhone": "zO7nTjb70Jb7l0Lpyt671nb7m3v3dYO0PFg1AvZQGcBGje0erV4M3xc8y00t8/5w+irKSF6YwYfU\nWHm77nKUxlGjhNoBE/9tB+4HoWw4B/hIx4oorkN1gu3luGcQhYzNT6a+wzaAmCWueMEdPmZuRg==",
+						"location": null,
+						"tncAcceptedVersion": "v13"
+					}
+				}
+			}
+		}
+	]
+}

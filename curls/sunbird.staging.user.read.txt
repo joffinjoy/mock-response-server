@@ -1,0 +1,2 @@
+# Command 1
+curl -X GET "http://localhost:5012/userorg/private/user/v1/read/1018"

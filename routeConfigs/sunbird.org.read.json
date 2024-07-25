@@ -1,0 +1,73 @@
+{
+	"routes": [
+		{
+			"route": "/v1/org/read",
+			"method": "POST",
+			"requestData": {
+				"request": {
+					"organisationId": "<:OrgId>"
+				}
+			},
+			"responseData": {
+				"id": "api.org.read",
+				"ver": "v1",
+				"ts": "2024-07-17 05:57:28:034+0000",
+				"params": {
+					"resmsgid": "a47985b35b7f6f05948d7b135da0e1e5",
+					"msgid": "a47985b35b7f6f05948d7b135da0e1e5",
+					"err": null,
+					"status": "SUCCESS",
+					"errmsg": null
+				},
+				"responseCode": "OK",
+				"result": {
+					"response": {
+						"frameworkid": null,
+						"dateTime": null,
+						"preferredLanguage": null,
+						"keys": {},
+						"organisationSubType": 128,
+						"channel": "Minister for New Delhi",
+						"approvedBy": null,
+						"description": null,
+						"updatedDate": null,
+						"organisationType": 16,
+						"addressId": null,
+						"orgType": null,
+						"isTenant": true,
+						"provider": null,
+						"locationId": null,
+						"orgCode": null,
+						"theme": null,
+						"id": "<:OrgId>",
+						"communityId": null,
+						"isApproved": null,
+						"email": null,
+						"slug": "minister-for-new-delhi",
+						"isSSOEnabled": false,
+						"thumbnail": null,
+						"orgName": "Minister for New Delhi",
+						"updatedBy": null,
+						"locationIds": [],
+						"externalId": null,
+						"orgLocation": [],
+						"isRootOrg": null,
+						"rootOrgId": "<:OrgId>",
+						"imgUrl": null,
+						"approvedDate": null,
+						"isSchool": false,
+						"homeUrl": null,
+						"orgTypeId": null,
+						"isDefault": null,
+						"createdDate": "2023-08-22 09:24:34:344+0000",
+						"createdBy": "12580399-2409-49c3-9dfc-8554711caebf",
+						"parentOrgId": null,
+						"hashTagId": "<:OrgId>",
+						"noOfMembers": null,
+						"status": 1
+					}
+				}
+			}
+		}
+	]
+}

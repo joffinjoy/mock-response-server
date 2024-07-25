@@ -1,0 +1,12 @@
+{
+	"routes": [
+		{
+			"route": "/user-update",
+			"method": "POST",
+			"requestData": {},
+			"responseData": {
+				"status": "Happy"
+			}
+		}
+	]
+}

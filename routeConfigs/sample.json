@@ -14,7 +14,7 @@
 					}
 				}
 			},
-			"returnData": {
+			"responseData": {
 				"user_id": "<:userId>",
 				"detail_id": "<:detailId>",
 				"user_age": "<:userAge>",

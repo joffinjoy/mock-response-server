@@ -51,32 +51,35 @@ const loadConfigs = () => {
 		configs.push(...fileContent.routes);
 	});
 
+	console.table(configs);
 	return configs;
 };
 
 const configs = loadConfigs();
 
 configs.forEach((routeConfig) => {
-	const { method, route, requestData, returnData } = routeConfig;
+	const { method, route, requestData, responseData } = routeConfig;
 	const httpMethod = method.toLowerCase();
 	app[httpMethod](route, (req, res) => {
 		const params = { ...req.params, ...req.query, ...req.body };
+		console.log(`Request received on route: ${method.toUpperCase()} ${route}`);
+		console.table(params);
 		const placeholders = {
 			...extractPlaceholders(requestData),
 			...Object.fromEntries(Object.keys(req.params).map((key) => [key, key])),
 			...Object.fromEntries(Object.keys(req.query).map((key) => [key, key])),
 		};
-		console.log('Extracted Placeholders:', placeholders);
-		const responseTemplate = JSON.stringify(returnData);
+
+		const responseTemplate = JSON.stringify(responseData);
 		const responseWithPlaceholdersReplaced = replacePlaceholders(responseTemplate, placeholders, params);
 		const response = JSON.parse(responseWithPlaceholdersReplaced);
-		console.log('Response:', response);
+
 		res.json(response);
 	});
 });
 
 app.listen(PORT, () => {
-	console.log(`Server is running on http://${process.env.APPLICATION_HOST}:${PORT}`);
+	console.log(`\nServer is running on http://${process.env.APPLICATION_HOST}:${PORT}`);
 	exec('node generateCurls.js', (error, stdout, stderr) => {
 		if (error) {
 			console.error(`Error generating curl commands: ${error.message}`);
@@ -86,7 +89,7 @@ app.listen(PORT, () => {
 			console.error(`Error output from curl generation script: ${stderr}`);
 			return;
 		}
-		console.log('Curl commands generated:');
+		console.log('\nCurl commands generated:');
 		console.log(stdout);
 	});
 });
